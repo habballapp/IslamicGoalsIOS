@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "570333FF-E339-43A5-9D07-7D8CFC934B0B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "235FA439-30DE-4A93-BEC6-D88123F67996"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Islamic Goals/View Controllers/CalendarIntegrationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "CalendarIntegrationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "235FA439-30DE-4A93-BEC6-D88123F67996 - 1de353354addd00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.CalendarIntegrationViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Islamic_Goals.CalendarIntegrationViewController"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdirazarajani/Documents/islamic-goals/Islamic%20Goals/View%20Controllers/CalendarIntegrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "143">
+               </Location>
+               <Location
+                  uuid = "235FA439-30DE-4A93-BEC6-D88123F67996 - 4130b204a8f722ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.CalendarIntegrationViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Islamic_Goals.CalendarIntegrationViewController&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdirazarajani/Documents/islamic-goals/Islamic%20Goals/View%20Controllers/CalendarIntegrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "98">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83270BC6-B76B-4B60-A6FA-087381792B7F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Islamic Goals/View Controllers/CalendarIntegrationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "CalendarIntegrationViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "83270BC6-B76B-4B60-A6FA-087381792B7F - cdfb03a3d2486fac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.CalendarIntegrationViewController.(calendarService in _B678FE243DC2516750933A92EC19D2AB).getter : Swift.Optional&lt;__C.GTLRCalendarService&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdirazarajani/Documents/islamic-goals/Islamic%20Goals/View%20Controllers/CalendarIntegrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "83270BC6-B76B-4B60-A6FA-087381792B7F - cdfb03a3d2486fac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.CalendarIntegrationViewController.(calendarService in _B678FE243DC2516750933A92EC19D2AB).setter : Swift.Optional&lt;__C.GTLRCalendarService&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdirazarajani/Documents/islamic-goals/Islamic%20Goals/View%20Controllers/CalendarIntegrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "83270BC6-B76B-4B60-A6FA-087381792B7F - cdfb03a3d2486fac"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.CalendarIntegrationViewController.(calendarService in _B678FE243DC2516750933A92EC19D2AB).modify : Swift.Optional&lt;__C.GTLRCalendarService&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdirazarajani/Documents/islamic-goals/Islamic%20Goals/View%20Controllers/CalendarIntegrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "83270BC6-B76B-4B60-A6FA-087381792B7F - c05bf3294e911def"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.CalendarIntegrationViewController.(calendarService in _B678FE243DC2516750933A92EC19D2AB).modify : Swift.Optional&lt;__C.GTLRCalendarService&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdirazarajani/Documents/islamic-goals/Islamic%20Goals/View%20Controllers/CalendarIntegrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "83270BC6-B76B-4B60-A6FA-087381792B7F - 1de353354addd00"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.CalendarIntegrationViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Islamic_Goals.CalendarIntegrationViewController"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdirazarajani/Documents/islamic-goals/Islamic%20Goals/View%20Controllers/CalendarIntegrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "83270BC6-B76B-4B60-A6FA-087381792B7F - 4130b204a8f722ca"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.CalendarIntegrationViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Islamic_Goals.CalendarIntegrationViewController&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdirazarajani/Documents/islamic-goals/Islamic%20Goals/View%20Controllers/CalendarIntegrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "83270BC6-B76B-4B60-A6FA-087381792B7F - 7f8de4904129d1d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Optional&lt;__C.GTLRCalendarService&gt; in Islamic_Goals.CalendarIntegrationViewController.(calendarService in _B678FE243DC2516750933A92EC19D2AB).getter : Swift.Optional&lt;__C.GTLRCalendarService&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehdirazarajani/Documents/islamic-goals/Islamic%20Goals/View%20Controllers/CalendarIntegrationViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "75">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B43E338-EC43-421A-ADBF-80A42AEFA319"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Islamic Goals/View Controllers/CalendarIntegrationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "CalendarIntegrationViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70995F96-76B2-4C6B-A9C6-5E425195B2A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Islamic Goals/Other Stuff/Google Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchEvents(userId:service:delegate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "750D67FA-08F8-4A41-8C8D-94EB57AAD8EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Islamic Goals/Other Stuff/Google Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "addCalendarInDatabase(ticket:finishedWithObject:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B046FDE4-3E00-4587-AEF8-AACF0DE84347"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Islamic Goals/Other Stuff/Google Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchEvents(userId:service:delegate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "074159C4-44C9-43DB-AF66-D292F3A085D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Islamic Goals/Other Stuff/Google Calendar.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "addCalendarInDatabase(ticket:finishedWithObject:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

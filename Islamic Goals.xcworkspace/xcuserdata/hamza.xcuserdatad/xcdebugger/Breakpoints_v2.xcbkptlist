@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BE17755A-E7E7-4D5F-9E75-C60E9F354F55"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDDF527F-6303-4947-ABCC-795CB13C495A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Islamic Goals/View Controllers/Tab Bar/ProgressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "CDDF527F-6303-4947-ABCC-795CB13C495A - 54506948c207d084"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.completedStreakLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "CDDF527F-6303-4947-ABCC-795CB13C495A - 2ba7e91eaa293490"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.completedStreakLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "CDDF527F-6303-4947-ABCC-795CB13C495A - b74a3d52b6452b87"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.completedStreakLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "CDDF527F-6303-4947-ABCC-795CB13C495A - c183a48d22f98ed3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.completedStreakLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "CDDF527F-6303-4947-ABCC-795CB13C495A - cdac20a0996a3d2f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Islamic_Goals.ProgressViewController"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2830">
+               </Location>
+               <Location
+                  uuid = "CDDF527F-6303-4947-ABCC-795CB13C495A - 88b0d55341233665"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Islamic_Goals.ProgressViewController&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2765">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90E953B1-482A-487A-86F6-75965A993A3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Islamic Goals/View Controllers/Tab Bar/ProgressViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "90E953B1-482A-487A-86F6-75965A993A3E - 54506948c207d084"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.completedStreakLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "90E953B1-482A-487A-86F6-75965A993A3E - 2ba7e91eaa293490"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.completedStreakLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "90E953B1-482A-487A-86F6-75965A993A3E - b74a3d52b6452b87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.completedStreakLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "90E953B1-482A-487A-86F6-75965A993A3E - c183a48d22f98ed3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.completedStreakLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "90E953B1-482A-487A-86F6-75965A993A3E - cdac20a0996a3d2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Islamic_Goals.ProgressViewController"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2830">
+               </Location>
+               <Location
+                  uuid = "90E953B1-482A-487A-86F6-75965A993A3E - 88b0d55341233665"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Islamic_Goals.ProgressViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Islamic_Goals.ProgressViewController&gt;"
+                  moduleName = "Islamic Goals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamza/Desktop/final/islamic-goals-5%202%202/Islamic%20Goals/View%20Controllers/Tab%20Bar/ProgressViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2765">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

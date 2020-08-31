@@ -1,0 +1,1090 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D124B6F34BC1B4A71DF28F4 /* Pods_Islamic_GoalsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC9D5E79BD5709B40835BCA /* Pods_Islamic_GoalsUITests.framework */; };
+		9106671A22EDD65200305118 /* AddIHabbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106671922EDD65200305118 /* AddIHabbitViewController.swift */; };
+		9106671C22EDD92000305118 /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106671B22EDD92000305118 /* LabelCollectionViewCell.swift */; };
+		9106671E22EDDB1900305118 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106671D22EDDB1900305118 /* ImageCollectionViewCell.swift */; };
+		9106672022EE057600305118 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9106671F22EE057600305118 /* ScheduleViewController.swift */; };
+		910B8B5122E4854D001B75E3 /* TryPremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B8B5022E4854D001B75E3 /* TryPremiumViewController.swift */; };
+		910B8B5622E77EA1001B75E3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B8B5522E77EA1001B75E3 /* User.swift */; };
+		910C17A722E23A25009B3F43 /* SignUpDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910C17A622E23A25009B3F43 /* SignUpDataViewController.swift */; };
+		910C17A922E23F21009B3F43 /* SignUpLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910C17A822E23F21009B3F43 /* SignUpLocationViewController.swift */; };
+		910C17AB22E2445A009B3F43 /* SignUpCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910C17AA22E2445A009B3F43 /* SignUpCalendarViewController.swift */; };
+		910CA4D022E3025C0047B8E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910CA4CF22E3025C0047B8E8 /* LoginViewController.swift */; };
+		910CA4D322E32D870047B8E8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910CA4D222E32D870047B8E8 /* ProfileViewController.swift */; };
+		910CA4D622E32E4D0047B8E8 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910CA4D522E32E4D0047B8E8 /* ProfileTableViewCell.swift */; };
+		910CA4DC22E3680E0047B8E8 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910CA4DB22E3680E0047B8E8 /* ProgressViewController.swift */; };
+		910E8BC022EC2134009CA8D2 /* recordHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BBF22EC2134009CA8D2 /* recordHomeTableViewCell.swift */; };
+		910E8BC222EC2252009CA8D2 /* reminderHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BC122EC2252009CA8D2 /* reminderHomeTableViewCell.swift */; };
+		910E8BC422EC24CF009CA8D2 /* JournalHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BC322EC24CF009CA8D2 /* JournalHeaderTableViewCell.swift */; };
+		910E8BC622EC2555009CA8D2 /* journalHomeBodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BC522EC2555009CA8D2 /* journalHomeBodyTableViewCell.swift */; };
+		910E8BC822EC3480009CA8D2 /* StaticData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BC722EC3480009CA8D2 /* StaticData.swift */; };
+		910E8BCE22ECBFAD009CA8D2 /* HabbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BCD22ECBFAD009CA8D2 /* HabbitViewController.swift */; };
+		910E8BD022ECC55D009CA8D2 /* habbitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BCF22ECC55D009CA8D2 /* habbitCollectionViewCell.swift */; };
+		910E8BD222ECD624009CA8D2 /* habbitSpecificViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BD122ECD624009CA8D2 /* habbitSpecificViewController.swift */; };
+		910E8BD422ECE2DD009CA8D2 /* JournalSpecificViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BD322ECE2DD009CA8D2 /* JournalSpecificViewController.swift */; };
+		910E8BD622ECE336009CA8D2 /* journalDateHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E8BD522ECE336009CA8D2 /* journalDateHeaderTableViewCell.swift */; };
+		910FB85022EF73870070F9B7 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FB84F22EF73870070F9B7 /* CalendarViewController.swift */; };
+		913DABF922E0C82E004A81C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913DABF822E0C82E004A81C6 /* AppDelegate.swift */; };
+		913DABFE22E0C82E004A81C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913DABFC22E0C82E004A81C6 /* Main.storyboard */; };
+		913DAC0322E0C830004A81C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913DAC0122E0C830004A81C6 /* LaunchScreen.storyboard */; };
+		913DAC0E22E0C830004A81C6 /* Islamic_GoalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913DAC0D22E0C830004A81C6 /* Islamic_GoalsTests.swift */; };
+		913DAC1922E0C830004A81C6 /* Islamic_GoalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913DAC1822E0C830004A81C6 /* Islamic_GoalsUITests.swift */; };
+		913DAC2A22E0F2F9004A81C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913DAC2922E0F2F9004A81C6 /* Extensions.swift */; };
+		913DAC2C22E0FB69004A81C6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913DAC2B22E0FB69004A81C6 /* Constants.swift */; };
+		913DAC2E22E1025C004A81C6 /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913DAC2D22E1025C004A81C6 /* LoginSignUpViewController.swift */; };
+		91962FF322E8F42900B14171 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91962FF222E8F42900B14171 /* HomeViewController.swift */; };
+		9B7632FE371DD8255FC95A6D /* Pods_Islamic_Goals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFC32529473574C2813B9D1 /* Pods_Islamic_Goals.framework */; };
+		A3ACF1EE5DC762B948A2268F /* Pods_Islamic_GoalsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B910AC8D9A551DE712C8B8F /* Pods_Islamic_GoalsTests.framework */; };
+		BB11149524EBEA5A009C1926 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB11149424EBEA5A009C1926 /* util.swift */; };
+		C51E12CB236AD4BF00955F1F /* CalendarIntegrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E12CA236AD4BF00955F1F /* CalendarIntegrationViewController.swift */; };
+		C51E12CE236ADBBE00955F1F /* GoogleAPIClientForREST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51E12CD236ADBBE00955F1F /* GoogleAPIClientForREST.framework */; };
+		C548592F237AF7C500A968C6 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C548592E237AF7C500A968C6 /* CalendarEvent.swift */; };
+		C5485931237AF88D00A968C6 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5485930237AF88D00A968C6 /* WeekView.swift */; };
+		C5485935237AF93900A968C6 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5485933237AF93200A968C6 /* EventCell.swift */; };
+		C5485936237AF93900A968C6 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5485934237AF93900A968C6 /* EventCell.xib */; };
+		C5485938237AFE7700A968C6 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5485937237AFE7700A968C6 /* CalendarModel.swift */; };
+		C56A74A22397FB96009410C2 /* knTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A74A12397FB96009410C2 /* knTabBarItem.swift */; };
+		C56A74A42397FC8D009410C2 /* knUIMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A74A32397FC8D009410C2 /* knUIMaker.swift */; };
+		C56A74A62397FCB3009410C2 /* knConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A74A52397FCB3009410C2 /* knConstraints.swift */; };
+		C56A74A82397FE17009410C2 /* knTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A74A72397FE17009410C2 /* knTabBar.swift */; };
+		C56A74AA2397FE68009410C2 /* knTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56A74A92397FE68009410C2 /* knTabController.swift */; };
+		C5738B3723633C5C000B0643 /* Helper Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5738B3623633C5C000B0643 /* Helper Functions.swift */; };
+		C585A56E2368863A00540E0B /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C585A56D2368863A00540E0B /* Habit.swift */; };
+		C58E1EE72363464E0065CD6F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E1EE62363464E0065CD6F /* Toast.swift */; };
+		C5AE3E8D236C0FD4004A861C /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE3E8C236C0FD4004A861C /* Calendar.swift */; };
+		C5AE3E8F236C2DD5004A861C /* Google Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE3E8E236C2DD5004A861C /* Google Calendar.swift */; };
+		C5AE3E9123755D9E004A861C /* ChooseFrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5AE3E9023755D9E004A861C /* ChooseFrequencyViewController.swift */; };
+		C5BC8A5E2361F90200E4CE2F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BC8A5D2361F90200E4CE2F /* AddViewController.swift */; };
+		C5BC8A602361F9FF00E4CE2F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BC8A5F2361F9FF00E4CE2F /* TabBarViewController.swift */; };
+		C5BC8A622362F2F900E4CE2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BC8A612362F2F800E4CE2F /* Assets.xcassets */; };
+		C5BC8A642363117000E4CE2F /* AddJournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BC8A632363117000E4CE2F /* AddJournalViewController.swift */; };
+		C5BC8A662363292600E4CE2F /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BC8A652363292500E4CE2F /* Journal.swift */; };
+		C5BC8A6823632D6200E4CE2F /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BC8A6723632D6200E4CE2F /* UserManager.swift */; };
+		F10B7C04248230EF0051A0E3 /* habitCollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B7C03248230EF0051A0E3 /* habitCollectionViewCell2.swift */; };
+		F10B7C06248244F90051A0E3 /* Privacy&TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B7C05248244F90051A0E3 /* Privacy&TermsViewController.swift */; };
+		F11982CA246C34E200B2F8FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F11982C9246C34E200B2F8FC /* GoogleService-Info.plist */; };
+		F145576524B48695006FE271 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F145576424B48695006FE271 /* ForgetPasswordViewController.swift */; };
+		F1A2048624D37F960040BBA5 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2048224D37F950040BBA5 /* PageViewController.swift */; };
+		F1A2048724D37F960040BBA5 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2048424D37F950040BBA5 /* Slide.swift */; };
+		F1A2048824D37F960040BBA5 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A2048524D37F950040BBA5 /* Slide.xib */; };
+		F1F3FC5F245779C9003003A9 /* GoogleService-InfoNotinUse.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1F3FC5E245779C8003003A9 /* GoogleService-InfoNotinUse.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		913DAC0A22E0C830004A81C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 913DABED22E0C82E004A81C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 913DABF422E0C82E004A81C6;
+			remoteInfo = "Islamic Goals";
+		};
+		913DAC1522E0C830004A81C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 913DABED22E0C82E004A81C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 913DABF422E0C82E004A81C6;
+			remoteInfo = "Islamic Goals";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A58AF569DCB5D104B0DD9FB /* Pods-Islamic GoalsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic GoalsUITests.release.xcconfig"; path = "Target Support Files/Pods-Islamic GoalsUITests/Pods-Islamic GoalsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38B4B31857DFF3ECE8053B3D /* Pods-Islamic GoalsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic GoalsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Islamic GoalsUITests/Pods-Islamic GoalsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5347E383DC495614DD3A821F /* Pods-Islamic Goals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic Goals.debug.xcconfig"; path = "Target Support Files/Pods-Islamic Goals/Pods-Islamic Goals.debug.xcconfig"; sourceTree = "<group>"; };
+		5FC9D5E79BD5709B40835BCA /* Pods_Islamic_GoalsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Islamic_GoalsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8854A3E08491FB5A1029CA23 /* Pods-Islamic Goals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic Goals.release.xcconfig"; path = "Target Support Files/Pods-Islamic Goals/Pods-Islamic Goals.release.xcconfig"; sourceTree = "<group>"; };
+		8B910AC8D9A551DE712C8B8F /* Pods_Islamic_GoalsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Islamic_GoalsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFC32529473574C2813B9D1 /* Pods_Islamic_Goals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Islamic_Goals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE855B64FC7E5BEAB87DEF3 /* Pods-Islamic GoalsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic GoalsTests.release.xcconfig"; path = "Target Support Files/Pods-Islamic GoalsTests/Pods-Islamic GoalsTests.release.xcconfig"; sourceTree = "<group>"; };
+		9106671922EDD65200305118 /* AddIHabbitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIHabbitViewController.swift; sourceTree = "<group>"; };
+		9106671B22EDD92000305118 /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		9106671D22EDDB1900305118 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		9106671F22EE057600305118 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		910B8B5022E4854D001B75E3 /* TryPremiumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TryPremiumViewController.swift; path = "Islamic Goals/View Controllers/TryPremiumViewController.swift"; sourceTree = SOURCE_ROOT; };
+		910B8B5522E77EA1001B75E3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		910C17A622E23A25009B3F43 /* SignUpDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpDataViewController.swift; sourceTree = "<group>"; };
+		910C17A822E23F21009B3F43 /* SignUpLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLocationViewController.swift; sourceTree = "<group>"; };
+		910C17AA22E2445A009B3F43 /* SignUpCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCalendarViewController.swift; sourceTree = "<group>"; };
+		910CA4CF22E3025C0047B8E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		910CA4D222E32D870047B8E8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		910CA4D522E32E4D0047B8E8 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		910CA4DB22E3680E0047B8E8 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		910E8BBF22EC2134009CA8D2 /* recordHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordHomeTableViewCell.swift; sourceTree = "<group>"; };
+		910E8BC122EC2252009CA8D2 /* reminderHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderHomeTableViewCell.swift; sourceTree = "<group>"; };
+		910E8BC322EC24CF009CA8D2 /* JournalHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		910E8BC522EC2555009CA8D2 /* journalHomeBodyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalHomeBodyTableViewCell.swift; sourceTree = "<group>"; };
+		910E8BC722EC3480009CA8D2 /* StaticData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticData.swift; sourceTree = "<group>"; };
+		910E8BCD22ECBFAD009CA8D2 /* HabbitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabbitViewController.swift; sourceTree = "<group>"; };
+		910E8BCF22ECC55D009CA8D2 /* habbitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habbitCollectionViewCell.swift; sourceTree = "<group>"; };
+		910E8BD122ECD624009CA8D2 /* habbitSpecificViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habbitSpecificViewController.swift; sourceTree = "<group>"; };
+		910E8BD322ECE2DD009CA8D2 /* JournalSpecificViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalSpecificViewController.swift; sourceTree = "<group>"; };
+		910E8BD522ECE336009CA8D2 /* journalDateHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalDateHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		910FB84F22EF73870070F9B7 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		913DABF522E0C82E004A81C6 /* Islamic Goals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Islamic Goals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		913DABF822E0C82E004A81C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		913DABFD22E0C82E004A81C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		913DAC0222E0C830004A81C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		913DAC0422E0C830004A81C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913DAC0922E0C830004A81C6 /* Islamic GoalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Islamic GoalsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		913DAC0D22E0C830004A81C6 /* Islamic_GoalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_GoalsTests.swift; sourceTree = "<group>"; };
+		913DAC0F22E0C830004A81C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913DAC1422E0C830004A81C6 /* Islamic GoalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Islamic GoalsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		913DAC1822E0C830004A81C6 /* Islamic_GoalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Islamic_GoalsUITests.swift; sourceTree = "<group>"; };
+		913DAC1A22E0C830004A81C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913DAC2922E0F2F9004A81C6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		913DAC2B22E0FB69004A81C6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		913DAC2D22E1025C004A81C6 /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
+		91962FF222E8F42900B14171 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		BB11149424EBEA5A009C1926 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		BC76CF2AB2F2186EA365DA77 /* Pods-Islamic GoalsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Islamic GoalsTests.debug.xcconfig"; path = "Target Support Files/Pods-Islamic GoalsTests/Pods-Islamic GoalsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C51E12CA236AD4BF00955F1F /* CalendarIntegrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarIntegrationViewController.swift; sourceTree = "<group>"; };
+		C51E12CC236AD8A900955F1F /* GTLRCalendarService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GTLRCalendarService.h; path = "Islamic Goals/GTLRCalendarService.h"; sourceTree = SOURCE_ROOT; };
+		C51E12CD236ADBBE00955F1F /* GoogleAPIClientForREST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleAPIClientForREST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C548592E237AF7C500A968C6 /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
+		C5485930237AF88D00A968C6 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		C5485933237AF93200A968C6 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		C5485934237AF93900A968C6 /* EventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		C5485937237AFE7700A968C6 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		C56A74A12397FB96009410C2 /* knTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knTabBarItem.swift; sourceTree = "<group>"; };
+		C56A74A32397FC8D009410C2 /* knUIMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knUIMaker.swift; sourceTree = "<group>"; };
+		C56A74A52397FCB3009410C2 /* knConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knConstraints.swift; sourceTree = "<group>"; };
+		C56A74A72397FE17009410C2 /* knTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knTabBar.swift; sourceTree = "<group>"; };
+		C56A74A92397FE68009410C2 /* knTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knTabController.swift; sourceTree = "<group>"; };
+		C5738B3623633C5C000B0643 /* Helper Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Helper Functions.swift"; sourceTree = "<group>"; };
+		C585A56D2368863A00540E0B /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		C58E1EE62363464E0065CD6F /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		C5AE3E8C236C0FD4004A861C /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		C5AE3E8E236C2DD5004A861C /* Google Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Google Calendar.swift"; sourceTree = "<group>"; };
+		C5AE3E9023755D9E004A861C /* ChooseFrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChooseFrequencyViewController.swift; path = "Islamic Goals/View Controllers/ChooseFrequencyViewController.swift"; sourceTree = SOURCE_ROOT; };
+		C5BC8A5D2361F90200E4CE2F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = SOURCE_ROOT; };
+		C5BC8A5F2361F9FF00E4CE2F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C5BC8A612362F2F800E4CE2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5BC8A632363117000E4CE2F /* AddJournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddJournalViewController.swift; path = "Islamic Goals/Story Boards/AddJournalViewController.swift"; sourceTree = SOURCE_ROOT; };
+		C5BC8A652363292500E4CE2F /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		C5BC8A6723632D6200E4CE2F /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		F109F94D246D82BA00FE5515 /* Islamic Goals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Islamic Goals.entitlements"; sourceTree = "<group>"; };
+		F10B7C03248230EF0051A0E3 /* habitCollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = habitCollectionViewCell2.swift; sourceTree = "<group>"; };
+		F10B7C05248244F90051A0E3 /* Privacy&TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Privacy&TermsViewController.swift"; sourceTree = "<group>"; };
+		F11982C9246C34E200B2F8FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F145576424B48695006FE271 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		F1A2048224D37F950040BBA5 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F1A2048424D37F950040BBA5 /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		F1A2048524D37F950040BBA5 /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		F1F3FC5E245779C8003003A9 /* GoogleService-InfoNotinUse.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-InfoNotinUse.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		913DABF222E0C82E004A81C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51E12CE236ADBBE00955F1F /* GoogleAPIClientForREST.framework in Frameworks */,
+				9B7632FE371DD8255FC95A6D /* Pods_Islamic_Goals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913DAC0622E0C830004A81C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3ACF1EE5DC762B948A2268F /* Pods_Islamic_GoalsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913DAC1122E0C830004A81C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D124B6F34BC1B4A71DF28F4 /* Pods_Islamic_GoalsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49967B095EFF3D6C254DA6AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5347E383DC495614DD3A821F /* Pods-Islamic Goals.debug.xcconfig */,
+				8854A3E08491FB5A1029CA23 /* Pods-Islamic Goals.release.xcconfig */,
+				BC76CF2AB2F2186EA365DA77 /* Pods-Islamic GoalsTests.debug.xcconfig */,
+				8FE855B64FC7E5BEAB87DEF3 /* Pods-Islamic GoalsTests.release.xcconfig */,
+				38B4B31857DFF3ECE8053B3D /* Pods-Islamic GoalsUITests.debug.xcconfig */,
+				2A58AF569DCB5D104B0DD9FB /* Pods-Islamic GoalsUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75659AC8FAD382ADB3B30408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C51E12CD236ADBBE00955F1F /* GoogleAPIClientForREST.framework */,
+				8DFC32529473574C2813B9D1 /* Pods_Islamic_Goals.framework */,
+				8B910AC8D9A551DE712C8B8F /* Pods_Islamic_GoalsTests.framework */,
+				5FC9D5E79BD5709B40835BCA /* Pods_Islamic_GoalsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		910B8B5422E77E8D001B75E3 /* Database Objects */ = {
+			isa = PBXGroup;
+			children = (
+				910B8B5522E77EA1001B75E3 /* User.swift */,
+				C5BC8A652363292500E4CE2F /* Journal.swift */,
+				C585A56D2368863A00540E0B /* Habit.swift */,
+				C5AE3E8C236C0FD4004A861C /* Calendar.swift */,
+			);
+			path = "Database Objects";
+			sourceTree = "<group>";
+		};
+		910C17A522E239EE009B3F43 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				910C17A622E23A25009B3F43 /* SignUpDataViewController.swift */,
+				910C17A822E23F21009B3F43 /* SignUpLocationViewController.swift */,
+				910C17AA22E2445A009B3F43 /* SignUpCalendarViewController.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		910CA4D122E32D770047B8E8 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				C5BC8A5D2361F90200E4CE2F /* AddViewController.swift */,
+				C5BC8A5F2361F9FF00E4CE2F /* TabBarViewController.swift */,
+				91962FF222E8F42900B14171 /* HomeViewController.swift */,
+				910CA4D222E32D870047B8E8 /* ProfileViewController.swift */,
+				910CA4DB22E3680E0047B8E8 /* ProgressViewController.swift */,
+				910FB84F22EF73870070F9B7 /* CalendarViewController.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		910CA4D422E32E300047B8E8 /* Table Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				910E8BBF22EC2134009CA8D2 /* recordHomeTableViewCell.swift */,
+				910E8BC122EC2252009CA8D2 /* reminderHomeTableViewCell.swift */,
+				910E8BC322EC24CF009CA8D2 /* JournalHeaderTableViewCell.swift */,
+				910E8BC522EC2555009CA8D2 /* journalHomeBodyTableViewCell.swift */,
+				910CA4D522E32E4D0047B8E8 /* ProfileTableViewCell.swift */,
+				910E8BCF22ECC55D009CA8D2 /* habbitCollectionViewCell.swift */,
+				910E8BD522ECE336009CA8D2 /* journalDateHeaderTableViewCell.swift */,
+				9106671B22EDD92000305118 /* LabelCollectionViewCell.swift */,
+				9106671D22EDDB1900305118 /* ImageCollectionViewCell.swift */,
+				F10B7C03248230EF0051A0E3 /* habitCollectionViewCell2.swift */,
+			);
+			path = "Table Collection View Cells";
+			sourceTree = "<group>";
+		};
+		910E8BCC22ECBF9D009CA8D2 /* Habbit */ = {
+			isa = PBXGroup;
+			children = (
+				C5AE3E9023755D9E004A861C /* ChooseFrequencyViewController.swift */,
+				910E8BCD22ECBFAD009CA8D2 /* HabbitViewController.swift */,
+				910E8BD122ECD624009CA8D2 /* habbitSpecificViewController.swift */,
+				9106671922EDD65200305118 /* AddIHabbitViewController.swift */,
+			);
+			path = Habbit;
+			sourceTree = "<group>";
+		};
+		913DABEC22E0C82E004A81C6 = {
+			isa = PBXGroup;
+			children = (
+				BB11149424EBEA5A009C1926 /* util.swift */,
+				913DABF722E0C82E004A81C6 /* Islamic Goals */,
+				913DAC0C22E0C830004A81C6 /* Islamic GoalsTests */,
+				913DAC1722E0C830004A81C6 /* Islamic GoalsUITests */,
+				913DABF622E0C82E004A81C6 /* Products */,
+				49967B095EFF3D6C254DA6AE /* Pods */,
+				75659AC8FAD382ADB3B30408 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		913DABF622E0C82E004A81C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				913DABF522E0C82E004A81C6 /* Islamic Goals.app */,
+				913DAC0922E0C830004A81C6 /* Islamic GoalsTests.xctest */,
+				913DAC1422E0C830004A81C6 /* Islamic GoalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		913DABF722E0C82E004A81C6 /* Islamic Goals */ = {
+			isa = PBXGroup;
+			children = (
+				F109F94D246D82BA00FE5515 /* Islamic Goals.entitlements */,
+				C56A74A02397FB2E009410C2 /* KnTabBar */,
+				C548592D237AF77000A968C6 /* Calendar */,
+				910B8B5422E77E8D001B75E3 /* Database Objects */,
+				910CA4D422E32E300047B8E8 /* Table Collection View Cells */,
+				913DAC2822E0F2E4004A81C6 /* Other Stuff */,
+				913DABF822E0C82E004A81C6 /* AppDelegate.swift */,
+				913DAC2722E0CB4B004A81C6 /* Story Boards */,
+				913DAC2622E0CB37004A81C6 /* View Controllers */,
+				913DAC0422E0C830004A81C6 /* Info.plist */,
+				F11982C9246C34E200B2F8FC /* GoogleService-Info.plist */,
+				F1F3FC5E245779C8003003A9 /* GoogleService-InfoNotinUse.plist */,
+				C5BC8A612362F2F800E4CE2F /* Assets.xcassets */,
+			);
+			path = "Islamic Goals";
+			sourceTree = "<group>";
+		};
+		913DAC0C22E0C830004A81C6 /* Islamic GoalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				913DAC0D22E0C830004A81C6 /* Islamic_GoalsTests.swift */,
+				913DAC0F22E0C830004A81C6 /* Info.plist */,
+			);
+			path = "Islamic GoalsTests";
+			sourceTree = "<group>";
+		};
+		913DAC1722E0C830004A81C6 /* Islamic GoalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				913DAC1822E0C830004A81C6 /* Islamic_GoalsUITests.swift */,
+				913DAC1A22E0C830004A81C6 /* Info.plist */,
+			);
+			path = "Islamic GoalsUITests";
+			sourceTree = "<group>";
+		};
+		913DAC2622E0CB37004A81C6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1A2048224D37F950040BBA5 /* PageViewController.swift */,
+				F1A2048324D37F950040BBA5 /* views */,
+				C5BC8A632363117000E4CE2F /* AddJournalViewController.swift */,
+				910E8BCC22ECBF9D009CA8D2 /* Habbit */,
+				910CA4D122E32D770047B8E8 /* Tab Bar */,
+				910CA4CF22E3025C0047B8E8 /* LoginViewController.swift */,
+				910C17A522E239EE009B3F43 /* Sign Up */,
+				913DAC2D22E1025C004A81C6 /* LoginSignUpViewController.swift */,
+				910B8B5022E4854D001B75E3 /* TryPremiumViewController.swift */,
+				910E8BD322ECE2DD009CA8D2 /* JournalSpecificViewController.swift */,
+				9106671F22EE057600305118 /* ScheduleViewController.swift */,
+				F10B7C05248244F90051A0E3 /* Privacy&TermsViewController.swift */,
+				C51E12CA236AD4BF00955F1F /* CalendarIntegrationViewController.swift */,
+				F145576424B48695006FE271 /* ForgetPasswordViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		913DAC2722E0CB4B004A81C6 /* Story Boards */ = {
+			isa = PBXGroup;
+			children = (
+				913DAC0122E0C830004A81C6 /* LaunchScreen.storyboard */,
+				913DABFC22E0C82E004A81C6 /* Main.storyboard */,
+			);
+			path = "Story Boards";
+			sourceTree = "<group>";
+		};
+		913DAC2822E0F2E4004A81C6 /* Other Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				C51E12CC236AD8A900955F1F /* GTLRCalendarService.h */,
+				913DAC2922E0F2F9004A81C6 /* Extensions.swift */,
+				913DAC2B22E0FB69004A81C6 /* Constants.swift */,
+				910E8BC722EC3480009CA8D2 /* StaticData.swift */,
+				C5BC8A6723632D6200E4CE2F /* UserManager.swift */,
+				C5738B3623633C5C000B0643 /* Helper Functions.swift */,
+				C58E1EE62363464E0065CD6F /* Toast.swift */,
+				C5AE3E8E236C2DD5004A861C /* Google Calendar.swift */,
+			);
+			path = "Other Stuff";
+			sourceTree = "<group>";
+		};
+		C548592D237AF77000A968C6 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				C548592E237AF7C500A968C6 /* CalendarEvent.swift */,
+				C5485930237AF88D00A968C6 /* WeekView.swift */,
+				C5485933237AF93200A968C6 /* EventCell.swift */,
+				C5485934237AF93900A968C6 /* EventCell.xib */,
+				C5485937237AFE7700A968C6 /* CalendarModel.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		C56A74A02397FB2E009410C2 /* KnTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C56A74A12397FB96009410C2 /* knTabBarItem.swift */,
+				C56A74A72397FE17009410C2 /* knTabBar.swift */,
+				C56A74A32397FC8D009410C2 /* knUIMaker.swift */,
+				C56A74A52397FCB3009410C2 /* knConstraints.swift */,
+				C56A74A92397FE68009410C2 /* knTabController.swift */,
+			);
+			path = KnTabBar;
+			sourceTree = "<group>";
+		};
+		F1A2048324D37F950040BBA5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F1A2048424D37F950040BBA5 /* Slide.swift */,
+				F1A2048524D37F950040BBA5 /* Slide.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		913DABF422E0C82E004A81C6 /* Islamic Goals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913DAC1D22E0C830004A81C6 /* Build configuration list for PBXNativeTarget "Islamic Goals" */;
+			buildPhases = (
+				FF3BA748B3C82E0FDCD6B344 /* [CP] Check Pods Manifest.lock */,
+				913DABF122E0C82E004A81C6 /* Sources */,
+				913DABF222E0C82E004A81C6 /* Frameworks */,
+				913DABF322E0C82E004A81C6 /* Resources */,
+				4B422FE9A764DB5EC3BAB523 /* [CP] Embed Pods Frameworks */,
+				2DF7868FFA947BE90B67F299 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Islamic Goals";
+			productName = "Islamic Goals";
+			productReference = 913DABF522E0C82E004A81C6 /* Islamic Goals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		913DAC0822E0C830004A81C6 /* Islamic GoalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913DAC2022E0C830004A81C6 /* Build configuration list for PBXNativeTarget "Islamic GoalsTests" */;
+			buildPhases = (
+				A615DDE2BEE16F63A43BCFC9 /* [CP] Check Pods Manifest.lock */,
+				913DAC0522E0C830004A81C6 /* Sources */,
+				913DAC0622E0C830004A81C6 /* Frameworks */,
+				913DAC0722E0C830004A81C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				913DAC0B22E0C830004A81C6 /* PBXTargetDependency */,
+			);
+			name = "Islamic GoalsTests";
+			productName = "Islamic GoalsTests";
+			productReference = 913DAC0922E0C830004A81C6 /* Islamic GoalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		913DAC1322E0C830004A81C6 /* Islamic GoalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913DAC2322E0C830004A81C6 /* Build configuration list for PBXNativeTarget "Islamic GoalsUITests" */;
+			buildPhases = (
+				9F227C8FDE1C8CBE1627AA21 /* [CP] Check Pods Manifest.lock */,
+				913DAC1022E0C830004A81C6 /* Sources */,
+				913DAC1122E0C830004A81C6 /* Frameworks */,
+				913DAC1222E0C830004A81C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				913DAC1622E0C830004A81C6 /* PBXTargetDependency */,
+			);
+			name = "Islamic GoalsUITests";
+			productName = "Islamic GoalsUITests";
+			productReference = 913DAC1422E0C830004A81C6 /* Islamic GoalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		913DABED22E0C82E004A81C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Matz;
+				TargetAttributes = {
+					913DABF422E0C82E004A81C6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					913DAC0822E0C830004A81C6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 913DABF422E0C82E004A81C6;
+					};
+					913DAC1322E0C830004A81C6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 913DABF422E0C82E004A81C6;
+					};
+				};
+			};
+			buildConfigurationList = 913DABF022E0C82E004A81C6 /* Build configuration list for PBXProject "Islamic Goals" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 913DABEC22E0C82E004A81C6;
+			productRefGroup = 913DABF622E0C82E004A81C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				913DABF422E0C82E004A81C6 /* Islamic Goals */,
+				913DAC0822E0C830004A81C6 /* Islamic GoalsTests */,
+				913DAC1322E0C830004A81C6 /* Islamic GoalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		913DABF322E0C82E004A81C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913DAC0322E0C830004A81C6 /* LaunchScreen.storyboard in Resources */,
+				C5BC8A622362F2F900E4CE2F /* Assets.xcassets in Resources */,
+				F1F3FC5F245779C9003003A9 /* GoogleService-InfoNotinUse.plist in Resources */,
+				F1A2048824D37F960040BBA5 /* Slide.xib in Resources */,
+				C5485936237AF93900A968C6 /* EventCell.xib in Resources */,
+				913DABFE22E0C82E004A81C6 /* Main.storyboard in Resources */,
+				F11982CA246C34E200B2F8FC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913DAC0722E0C830004A81C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913DAC1222E0C830004A81C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DF7868FFA947BE90B67F299 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islamic Goals/Pods-Islamic Goals-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islamic Goals/Pods-Islamic Goals-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Islamic Goals/Pods-Islamic Goals-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B422FE9A764DB5EC3BAB523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islamic Goals/Pods-Islamic Goals-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Islamic Goals/Pods-Islamic Goals-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Islamic Goals/Pods-Islamic Goals-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F227C8FDE1C8CBE1627AA21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Islamic GoalsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A615DDE2BEE16F63A43BCFC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Islamic GoalsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3BA748B3C82E0FDCD6B344 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Islamic Goals-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		913DABF122E0C82E004A81C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51E12CB236AD4BF00955F1F /* CalendarIntegrationViewController.swift in Sources */,
+				C58E1EE72363464E0065CD6F /* Toast.swift in Sources */,
+				C5BC8A602361F9FF00E4CE2F /* TabBarViewController.swift in Sources */,
+				910FB85022EF73870070F9B7 /* CalendarViewController.swift in Sources */,
+				C5738B3723633C5C000B0643 /* Helper Functions.swift in Sources */,
+				910CA4D022E3025C0047B8E8 /* LoginViewController.swift in Sources */,
+				910C17A722E23A25009B3F43 /* SignUpDataViewController.swift in Sources */,
+				910E8BD022ECC55D009CA8D2 /* habbitCollectionViewCell.swift in Sources */,
+				C5AE3E8F236C2DD5004A861C /* Google Calendar.swift in Sources */,
+				910CA4D322E32D870047B8E8 /* ProfileViewController.swift in Sources */,
+				9106671A22EDD65200305118 /* AddIHabbitViewController.swift in Sources */,
+				9106672022EE057600305118 /* ScheduleViewController.swift in Sources */,
+				910E8BC022EC2134009CA8D2 /* recordHomeTableViewCell.swift in Sources */,
+				C5BC8A662363292600E4CE2F /* Journal.swift in Sources */,
+				910CA4DC22E3680E0047B8E8 /* ProgressViewController.swift in Sources */,
+				910E8BC822EC3480009CA8D2 /* StaticData.swift in Sources */,
+				C56A74AA2397FE68009410C2 /* knTabController.swift in Sources */,
+				910E8BC622EC2555009CA8D2 /* journalHomeBodyTableViewCell.swift in Sources */,
+				C56A74A42397FC8D009410C2 /* knUIMaker.swift in Sources */,
+				910CA4D622E32E4D0047B8E8 /* ProfileTableViewCell.swift in Sources */,
+				9106671E22EDDB1900305118 /* ImageCollectionViewCell.swift in Sources */,
+				91962FF322E8F42900B14171 /* HomeViewController.swift in Sources */,
+				F145576524B48695006FE271 /* ForgetPasswordViewController.swift in Sources */,
+				C5AE3E8D236C0FD4004A861C /* Calendar.swift in Sources */,
+				C5BC8A6823632D6200E4CE2F /* UserManager.swift in Sources */,
+				C548592F237AF7C500A968C6 /* CalendarEvent.swift in Sources */,
+				C56A74A62397FCB3009410C2 /* knConstraints.swift in Sources */,
+				910B8B5622E77EA1001B75E3 /* User.swift in Sources */,
+				C5AE3E9123755D9E004A861C /* ChooseFrequencyViewController.swift in Sources */,
+				F1A2048724D37F960040BBA5 /* Slide.swift in Sources */,
+				910C17A922E23F21009B3F43 /* SignUpLocationViewController.swift in Sources */,
+				910E8BC222EC2252009CA8D2 /* reminderHomeTableViewCell.swift in Sources */,
+				C5BC8A5E2361F90200E4CE2F /* AddViewController.swift in Sources */,
+				910E8BD422ECE2DD009CA8D2 /* JournalSpecificViewController.swift in Sources */,
+				F1A2048624D37F960040BBA5 /* PageViewController.swift in Sources */,
+				BB11149524EBEA5A009C1926 /* util.swift in Sources */,
+				910B8B5122E4854D001B75E3 /* TryPremiumViewController.swift in Sources */,
+				C56A74A22397FB96009410C2 /* knTabBarItem.swift in Sources */,
+				C56A74A82397FE17009410C2 /* knTabBar.swift in Sources */,
+				C585A56E2368863A00540E0B /* Habit.swift in Sources */,
+				910E8BC422EC24CF009CA8D2 /* JournalHeaderTableViewCell.swift in Sources */,
+				913DAC2A22E0F2F9004A81C6 /* Extensions.swift in Sources */,
+				910C17AB22E2445A009B3F43 /* SignUpCalendarViewController.swift in Sources */,
+				910E8BCE22ECBFAD009CA8D2 /* HabbitViewController.swift in Sources */,
+				C5BC8A642363117000E4CE2F /* AddJournalViewController.swift in Sources */,
+				C5485935237AF93900A968C6 /* EventCell.swift in Sources */,
+				F10B7C06248244F90051A0E3 /* Privacy&TermsViewController.swift in Sources */,
+				9106671C22EDD92000305118 /* LabelCollectionViewCell.swift in Sources */,
+				C5485938237AFE7700A968C6 /* CalendarModel.swift in Sources */,
+				913DAC2E22E1025C004A81C6 /* LoginSignUpViewController.swift in Sources */,
+				F10B7C04248230EF0051A0E3 /* habitCollectionViewCell2.swift in Sources */,
+				910E8BD622ECE336009CA8D2 /* journalDateHeaderTableViewCell.swift in Sources */,
+				C5485931237AF88D00A968C6 /* WeekView.swift in Sources */,
+				910E8BD222ECD624009CA8D2 /* habbitSpecificViewController.swift in Sources */,
+				913DABF922E0C82E004A81C6 /* AppDelegate.swift in Sources */,
+				913DAC2C22E0FB69004A81C6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913DAC0522E0C830004A81C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913DAC0E22E0C830004A81C6 /* Islamic_GoalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		913DAC1022E0C830004A81C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913DAC1922E0C830004A81C6 /* Islamic_GoalsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		913DAC0B22E0C830004A81C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 913DABF422E0C82E004A81C6 /* Islamic Goals */;
+			targetProxy = 913DAC0A22E0C830004A81C6 /* PBXContainerItemProxy */;
+		};
+		913DAC1622E0C830004A81C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 913DABF422E0C82E004A81C6 /* Islamic Goals */;
+			targetProxy = 913DAC1522E0C830004A81C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		913DABFC22E0C82E004A81C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913DABFD22E0C82E004A81C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		913DAC0122E0C830004A81C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913DAC0222E0C830004A81C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		913DAC1B22E0C830004A81C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		913DAC1C22E0C830004A81C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		913DAC1E22E0C830004A81C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5347E383DC495614DD3A821F /* Pods-Islamic Goals.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Islamic Goals/Islamic Goals.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52YRWXVZH6;
+				INFOPLIST_FILE = "Islamic Goals/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "islamic-goals.Islamic-Goals-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		913DAC1F22E0C830004A81C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8854A3E08491FB5A1029CA23 /* Pods-Islamic Goals.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Islamic Goals/Islamic Goals.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52YRWXVZH6;
+				INFOPLIST_FILE = "Islamic Goals/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "islamic-goals.Islamic-Goals-02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		913DAC2122E0C830004A81C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC76CF2AB2F2186EA365DA77 /* Pods-Islamic GoalsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic GoalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "islamic-goals.Islamic-GoalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Islamic Goals.app/Islamic Goals";
+			};
+			name = Debug;
+		};
+		913DAC2222E0C830004A81C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE855B64FC7E5BEAB87DEF3 /* Pods-Islamic GoalsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic GoalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "islamic-goals.Islamic-GoalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Islamic Goals.app/Islamic Goals";
+			};
+			name = Release;
+		};
+		913DAC2422E0C830004A81C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B4B31857DFF3ECE8053B3D /* Pods-Islamic GoalsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic GoalsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "islamic-goals.Islamic-GoalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Islamic Goals";
+			};
+			name = Debug;
+		};
+		913DAC2522E0C830004A81C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A58AF569DCB5D104B0DD9FB /* Pods-Islamic GoalsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic GoalsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "islamic-goals.Islamic-GoalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Islamic Goals";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		913DABF022E0C82E004A81C6 /* Build configuration list for PBXProject "Islamic Goals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913DAC1B22E0C830004A81C6 /* Debug */,
+				913DAC1C22E0C830004A81C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913DAC1D22E0C830004A81C6 /* Build configuration list for PBXNativeTarget "Islamic Goals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913DAC1E22E0C830004A81C6 /* Debug */,
+				913DAC1F22E0C830004A81C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913DAC2022E0C830004A81C6 /* Build configuration list for PBXNativeTarget "Islamic GoalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913DAC2122E0C830004A81C6 /* Debug */,
+				913DAC2222E0C830004A81C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913DAC2322E0C830004A81C6 /* Build configuration list for PBXNativeTarget "Islamic GoalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913DAC2422E0C830004A81C6 /* Debug */,
+				913DAC2522E0C830004A81C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 913DABED22E0C82E004A81C6 /* Project object */;
+}
